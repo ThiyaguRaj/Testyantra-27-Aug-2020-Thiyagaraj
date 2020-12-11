@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+
+}
+img{
+    height:60px;
+    width:70px;
+    border-radius: 70px;
+}
+.welcome{
+    font-size: larger;
+    line-height: 50px;
+}
+.jumb{
+    background-color: white;
+    /* color: gray; */
+    border-radius: 0;
+    letter-spacing: 1px;
+}
+img.snip{
+    max-width: 48px;
+    border-radius: 0;
+}
+.acc{
+    letter-spacing: 1.5px;
+    color: rgb(102, 99, 99);
+}
+.notes{
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+.notes h3{
+    margin: 25px 0 25px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: gray;
+}
+.jumb .head{
+    font-weight: 700;
+    font-size: 60px;
+}

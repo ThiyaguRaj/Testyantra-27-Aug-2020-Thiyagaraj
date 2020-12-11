@@ -1,0 +1,38 @@
+
+.foot{
+    background-color: black;
+    color: white !important;
+   
+}
+.foot{
+    color: white !important;
+    font-size: small;
+    padding: 50px;
+
+}
+.com{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.log button{
+    border: 1.5px solid white;
+}
+.log button:hover{
+    border: 1.5px solid white;
+}
+.foot .footdata{
+    max-width: fit-content;
+    margin: auto;
+}
+button.logbtn{
+    border: 1.5px solid white;
+}
+.btnlog{
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+button.sigbtn{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}

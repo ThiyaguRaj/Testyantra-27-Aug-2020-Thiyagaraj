@@ -1,0 +1,15 @@
+.footdata .media a img{
+    max-width: 25px;
+    max-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.min{
+    display: block
+}
+.terms{
+    color: rgb(9, 140, 140)
+}
+.footdata p{
+    color: gray;
+}

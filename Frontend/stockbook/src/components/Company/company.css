@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+
+}
+img{
+    height:60px;
+    width:70px;
+    border-radius: 70px;
+}
+.welcome{
+    font-size: larger;
+}
+
+.rad{
+    visibility: hidden;
+    display: none;
+}
+.buttons{
+    display: inline;
+}
+.coform{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+button.subtn{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}

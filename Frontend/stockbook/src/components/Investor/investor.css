@@ -1,0 +1,30 @@
+.msg{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+img.responsive{
+    min-width: 200px !important;
+    min-height: 200px;
+}
+.user{
+    font-weight: 800 !important;
+    color: rgb(214, 210, 210) !important;
+}
+.cname{
+    letter-spacing: 3px;
+    color: silver;
+}
+.btns button{
+   border: none;
+   background: none;
+   color: white;
+   border-bottom: 2px solid white;
+   outline: none;
+}
+.btns button:hover{
+    color: rgb(201, 199, 199);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
