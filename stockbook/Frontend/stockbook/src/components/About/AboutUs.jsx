@@ -1,38 +1,3 @@
-// import React from 'react';
-// import { Jumbotron } from 'react-bootstrap';
-
-
-// function AboutUs() {
-//     return (
-
-//         <div className="m-5">
-//             <p>
-//                 <h3>Stock  Management System</h3>
-
-//                 <p>
-//                     This page outlines the Project. The project is to develop a Stock Management System.
-//                     This page contains the work flow of the system and gives guidelines on how to build the functionality
-//                     gradually in each of the course modules.
-//                 </p>
-//                 <p>
-//                     This Web application is aimed at providing a standalone Stock Management System simulation,
-//                     which is used by investors to buy stocks/shares of a company
-//                     There are three kind of users, (company manager) one who add the stocks and remove stocks
-//                     from the application. This user can update the stocks that can be brought by the investors.
-//                     Investor,the one who can buy some stocks from the application as well as sell the stocks whatever user
-//                     bought from the application in the application dashboard. And last type of user
-//                     (admin) one who can do crud operation on company manager,
-//                     user and crud operation on companies that are visible to investors to buy stocks. Admin will decide how much
-//   stock an investor can buy and what is the maximum amount he/she can invest in one company.<br></br><br></br>
-//                 </p>
-
-//             </p>
-//         </div>
-//     )
-
-// }
-// export default AboutUs;
-
 import React from 'react';
 import './About.css';
 import { Jumbotron } from 'react-bootstrap';

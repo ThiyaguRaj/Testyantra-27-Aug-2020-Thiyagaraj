@@ -16,7 +16,6 @@ function AdminHome(props) {
   const [comp, setComp] = useState(false);
   const [companies, setCompanies] = useState([]);
   const [compClick, setCompClick] = useState(false);
-  // const [updateCom, setUpdateCom] = useState({});
   const [updateClick, setUpdateClick] = useState(false);
   const [userData, setUserData] = useState({});
   const [blockClick, setBlockClock] = useState(false);
@@ -25,7 +24,7 @@ function AdminHome(props) {
   useEffect(() => {
     props.loginCheck();
     setUserData(JSON.parse(localStorage.getItem("Admin")));
-  },[])
+  }, [])
   useEffect(() => {
     axios({
       method: "get",
@@ -35,7 +34,7 @@ function AdminHome(props) {
       setCompanies(response.data.data);
       console.log(companies);
     });
-  },[]);
+  }, []);
   function handleAd() {
     setComp(false);
     setCompClick(false);
@@ -64,10 +63,6 @@ function AdminHome(props) {
     setCompBlock(false);
     setComp(!comp);
   }
-  // function compUpdate(event) {
-  //   setUpdateCom(event.target.value);
-  //   console.log(updateCom);
-  // }
   function updateAd() {
     setAdminClick(false);
     setCompClick(false);
@@ -125,7 +120,7 @@ function AdminHome(props) {
               Block Company
             </button>
             <button className="mt-5" onClick={handleOut}>
-            <i class="fas fa-sign-out-alt"></i> Logout
+              <i class="fas fa-sign-out-alt"></i> Logout
             </button>
           </div>
           <div className="admin">
